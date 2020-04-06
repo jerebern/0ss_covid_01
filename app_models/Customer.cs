@@ -7,6 +7,8 @@ namespace app_models
 {
     public class Customer : INotifyPropertyChanged
     {
+
+        //TEST DE GIT 
         private string name;
         private string lastName;
         private string address;
