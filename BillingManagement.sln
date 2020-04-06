@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingManagement.UI", "Inv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingManagement.Model", "app_models\BillingManagement.Model.csproj", "{58FEC7DF-7358-4AFF-BFEC-225473BF7854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules.Model", "BusinessRules.Model\BusinessRules.Model.csproj", "{945F2FFC-1B48-4DAA-B470-2463A0BD8CD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{58FEC7DF-7358-4AFF-BFEC-225473BF7854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58FEC7DF-7358-4AFF-BFEC-225473BF7854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58FEC7DF-7358-4AFF-BFEC-225473BF7854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945F2FFC-1B48-4DAA-B470-2463A0BD8CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945F2FFC-1B48-4DAA-B470-2463A0BD8CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945F2FFC-1B48-4DAA-B470-2463A0BD8CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945F2FFC-1B48-4DAA-B470-2463A0BD8CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
