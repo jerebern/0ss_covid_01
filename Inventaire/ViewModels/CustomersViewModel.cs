@@ -1,4 +1,5 @@
 ﻿using app_models;
+using BillingManagement.UI.Commands;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,6 +14,8 @@ namespace BillingManagement.UI.ViewModels
 
         private ObservableCollection<Customer> customers;
         private Customer selectedCustomer;
+
+        public AddCustomerCommand addClientCommand { get; set; }
 
         public ObservableCollection<Customer> Customers
         {
@@ -38,6 +41,7 @@ namespace BillingManagement.UI.ViewModels
         public CustomersViewModel()
         {
             InitValues();
+            addClientCommand = new AddCustomerCommand(Add_Customer);
             
         }
 
@@ -47,6 +51,15 @@ namespace BillingManagement.UI.ViewModels
             Debug.WriteLine(Customers.Count);
         }
 
+        private void Add_Customer()
+        {
+            Console.WriteLine("TEST");
+
+            ///ICI VA LE CODE A RAJOUTER POUR FAIRE FONCTIONNER L'AJOUT mon command binding n'a jamais fonctioner :(
+            
+
+
+        }
 
     }
 }
